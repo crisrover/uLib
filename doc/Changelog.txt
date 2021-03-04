@@ -1,0 +1,26 @@
+02.March.2018 - v 1.0.0
+    * Initial version
+02.March.2018 - v 1.1.0
+    * Changed folder structure, added wildcard tests.
+06.March.2018 - v 1.1.1
+    * Changed all paths to relative
+02.May.2018 - v 1.4.0
+    * Fixed the includes after renaming
+    * added Doc filter and Changelog in VS solution - todo vs2015!!!
+    * added autobuild script - verifies build and execution of ulib tests!
+    * Added c project for tests
+    * added c and cpp build in autobuild script, and copy cpp file to c file
+    * in pre-build event in VS2017 solution
+    * fixed bug in timer - for pendantic c code
+    * cleaned up file_io.h
+    * fixed c89 compliance for test macros
+    * added VS 2010 solution
+    * fixed bug in ListDir - first file was ignored
+    * rewritten WildcardMatch function
+25.Nov.2020 - v 1.7.0
+    * Rewritten ListDir function to properly traverse recursive folder structure
+    * Bugfixes
+04.Mar.2021 - v 2.0.0
+    * Bugfix - ListDir not working correctly if built without UNICODE
+    * Various bugfixes
+    * Updated copyright
